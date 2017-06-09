@@ -1,0 +1,38 @@
+{
+  "name": "ag-grid-react-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.dev.js --progress --colors --hot --inline",
+    "build": "webpack --config config/webpack.prod.js --progress --profile --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceolter/ag-grid-react-seed.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ceolter/ag-grid-react-seed/issues"
+  },
+  "homepage": "https://github.com/ceolter/ag-grid-react-seed#readme",
+  "dependencies": {
+    "ag-grid": "10.0.1",
+    "ag-grid-react": "10.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-loader": "6.4.x",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "css-loader": "0.28.4",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "0.18.2",
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.14.x"
+  }
+}
