@@ -31,7 +31,7 @@ class SimpleGridExample extends Component {
             width: 500
         };
 
-        return (gi
+        return (
             <div style={containerStyle} className="ag-fresh">
                 <h1>Simple ag-Grid React Example</h1>
                 <AgGridReact
